@@ -2,14 +2,10 @@ require("./bootstrap");
 
 import { createApp } from "vue";
 
-import Home from "./components/Home.vue";
+//App
+import App from "./App.vue";
 
-const app = createApp({
+//Router
+import router from "./Router";
 
-})
-
-
-app.component('home', Home);
-
-app.mount('#app');
-
+createApp(App).use(router).mount("#app");
