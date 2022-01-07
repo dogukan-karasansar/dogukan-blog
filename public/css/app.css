@@ -1,1 +1,15 @@
+body {
+    background-color: #ffff;
+    padding: 20px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    background-color: #1F4068;
+    right: 0;
+}
+
+
+
 
