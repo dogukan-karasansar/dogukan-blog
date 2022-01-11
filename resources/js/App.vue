@@ -1,6 +1,6 @@
 <template>
-    <navbar />
-    <div class="mt-3">
+    <Navbar />
+    <div class="border" style="margin: 75px;">
         <router-view />
     </div>
 </template>

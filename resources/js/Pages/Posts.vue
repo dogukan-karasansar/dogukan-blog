@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
-        <h1>Home</h1>
+    <div>
+        <h1>Posts</h1>
     </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style></style>
