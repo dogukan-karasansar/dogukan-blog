@@ -1,6 +1,6 @@
 <template>
     <Navbar />
-    <div class="border" style="margin: 75px;">
+    <div style="margin: 75px;">
         <router-view />
     </div>
 </template>

@@ -65,4 +65,7 @@ export default {};
 
 <style>
 @import "../styles/components/navbar.css";
+router-link:hover {
+    color: black;
+}
 </style>

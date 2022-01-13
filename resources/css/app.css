@@ -1,6 +1,10 @@
 body {
-    background-color: #ffff;
+    background-color: #ffffff;
     padding: 20px;
+}
+
+a:hover {
+    color: black;
 }
 
 footer {

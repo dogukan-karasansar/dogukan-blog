@@ -1,0 +1,10 @@
+.header {
+    color: black;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+.header-child {
+    color: #718096;
+    font-family: Helvetica;
+}

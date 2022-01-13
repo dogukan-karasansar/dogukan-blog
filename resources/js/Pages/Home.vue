@@ -1,11 +1,18 @@
 <template>
     <div class="container">
-        <h1>Home</h1>
+        <BannerText />
     </div>
 </template>
 
 <script>
-export default {};
+
+import BannerText from "../components/BannerText";
+
+export default {
+    components: {
+        BannerText,
+    }
+};
 </script>
 
 <style></style>
