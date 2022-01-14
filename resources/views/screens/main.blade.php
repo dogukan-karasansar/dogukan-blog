@@ -2,9 +2,9 @@
 
 @section('content')
 
-    <div id="app">
-        <Home/>
-    </div>
+<div id="app">
+    <App/>
+</div>
 
 @endsection
 

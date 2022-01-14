@@ -1,5 +1,5 @@
 <template>
-    <a href="#top">
+    <a @click="scrollToTop()">
         <div
             class="upper d-flex justify-content-center align-items-center"
         >
@@ -11,7 +11,12 @@
 <script>
 
 export default {
-    name: "Upper"
+    name: "Upper",
+    methods: {
+        scrollToTop() {
+            window.scrollTo(0, 0);
+        },
+    }
 }
 </script>
 
