@@ -1,6 +1,5 @@
 <template>
     <div class="container-fluid align-items-start shadow-sm navbar-fluid">
-        <h1 id="#top"></h1>
         <div class="row p-1">
             <div class="col-md-4  d-flex align-items-start flex-column ">
                 <div class="mt-0">
