@@ -16,7 +16,26 @@
                             <HorizontalCard/>
                         </div>
                         <div class="col-md-3 m-3">
-                            <VerticalCard />
+                            <VerticalCard/>
+                        </div>
+                        <div class="col-md-3 m-3">
+                            <VerticalCard/>
+                        </div>
+                        <div class="col-md-3 m-3">
+                            <VerticalCard/>
+                        </div>
+                        <div class="col-md-3 m-3">
+                            <VerticalCard/>
+                        </div>
+                        <div class="col-md-5 m-3">
+                            <HorizontalCard/>
+                        </div>
+
+                        <div class="col-md-5 m-3">
+                            <HorizontalCard/>
+                        </div>
+                        <div class="col-md-3 m-3">
+                            <VerticalCard/>
                         </div>
                         <div class="col-md-3 m-3">
                             <VerticalCard/>
@@ -33,10 +52,9 @@
 
                     </div>
                 </div>
-
             </div>
         </div>
-
+        <Upper/>
     </div>
 </template>
 
@@ -45,8 +63,11 @@
 import BannerText from "../components/BannerText";
 import HorizontalCard from "../components/HorizontalCard";
 import VerticalCard from "../components/VerticalCard";
+import Upper from "../components/Upper";
+
 export default {
     components: {
+        Upper,
         BannerText,
         HorizontalCard,
         VerticalCard

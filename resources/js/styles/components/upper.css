@@ -1,0 +1,17 @@
+.upper {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #6867AC;
+    transition: all 0.4s ease-out;
+    position: -webkit-sticky;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.upper:hover {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
