@@ -19801,7 +19801,8 @@ var _hoisted_1 = {
 var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     style: {
-      "border-radius": "10px"
+      "border-radius": "10px",
+      "transition": "all 0.5s ease"
     },
     src: "https://images.pexels.com/photos/6956121/pexels-photo-6956121.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     "class": "card-img",
@@ -19837,10 +19838,10 @@ var _hoisted_6 = {
 
 var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "read-more shadow"
+    "class": "read-more shadow-lg"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     "class": "read-more-text"
-  }, "DETAYLAR")], -1
+  }, "DEVAM")], -1
   /* HOISTED */
   );
 });
@@ -19877,7 +19878,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "container-fluid align-items-start shadow-sm navbar-fluid"
+  "class": "container-fluid align-items-start shadow-sm navbar-fluid p-1"
 };
 var _hoisted_2 = {
   "class": "row"
@@ -19886,7 +19887,7 @@ var _hoisted_3 = {
   "class": "col-md-4 d-flex align-items-start flex-column"
 };
 var _hoisted_4 = {
-  "class": ""
+  "class": "mt-0"
 };
 var _hoisted_5 = {
   href: "/"
@@ -19896,7 +19897,7 @@ var _hoisted_7 = {
   "class": "col-md-4 d-flex align-items-center flex-column"
 };
 var _hoisted_8 = {
-  "class": "mt-3"
+  "class": "mt-2"
 };
 
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Hakkımda ");
@@ -19922,7 +19923,7 @@ var _hoisted_18 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNo
 var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "col-md-4 d-flex align-items-end flex-column"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "mt-3"
+  "class": "mt-2"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   href: "https://www.linkedin.com/in/do%C4%9Fukan-karasansar-627770194/",
   target: "_blank"
@@ -19941,9 +19942,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     style: {
       "margin-left": "100px"
     },
-    src: '/images/logo2.png',
-    width: "75",
-    height: "60"
+    src: '/images/logo.png',
+    width: "40",
+    height: "40"
   }, null, 8
   /* PROPS */
   , _hoisted_6)])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("   ABOUT   "), _ctx.$route.name === 'About' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_router_link, {
@@ -20125,10 +20126,10 @@ var _hoisted_6 = {
 
 var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "read-more shadow"
+    "class": "read-more shadow-lg"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
     "class": "read-more-text"
-  }, "DETAYLAR")], -1
+  }, "DEVAM")], -1
   /* HOISTED */
   );
 });
@@ -20506,7 +20507,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".card-img {\n    border-radius: 25px;\n    height: 260px;\n}\n\n.card-title {\n    font-size: 13px;\n    color: lightgray;\n    font-family: Helvetica, serif;\n}\n\n.card-text {\n    color: white;\n    font-family: Helvetica, serif;\n}\n\n.read-container {\n    position: absolute;\n    bottom: 0;\n}\n\n.read-more {\n    padding: 1px 18px;\n    border-radius: 2px;\n    background-color: white;\n}\n\n.read-more-text {\n    color: #3b6e78;\n    font-family: Helvetica, serif;\n    font-size: 10px;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".card-img {\n\n    border-radius: 25px;\n    height: 260px;\n}\n\n\n\n.card {\n    transition: all 0.5s ease;\n}\n\n.card:hover {\n    margin: -5px;\n}\n\n.card-title {\n    font-size: 13px;\n    color: lightgray;\n    font-family: Helvetica, serif;\n}\n\n.card-text {\n    color: white;\n    font-family: Helvetica, serif;\n}\n\n.read-container {\n    position: absolute;\n    bottom: 0;\n}\n\n.read-more {\n    transition: all 0.5s ease;\n    padding: 1px 18px;\n    border-radius: 4px;\n    background-color: white;\n}\n\n.read-more:hover {\n    padding: 2px 24px;\n}\n\n\n.read-more-text {\n    color: #6867AC;\n    font-family: Helvetica, serif;\n    font-size: 10px;\n    font-weight: bold;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -20554,7 +20555,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".vertical-card-img {\n    border-radius: 25px;\n    height: 320px;\n}\n\n.card-title {\n    font-size: 13px;\n    color: lightgray;\n    font-family: Helvetica, serif;\n}\n\n.card-text {\n    color: white;\n    font-family: Helvetica, serif;\n}\n\n.read-container {\n    position: absolute;\n    bottom: 0;\n}\n\n.read-more {\n    padding: 1px 18px;\n    border-radius: 2px;\n    background-color: white;\n}\n\n.read-more-text {\n    color: #3b6e78;\n    font-family: Helvetica, serif;\n    font-size: 10px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".vertical-card-img {\n    border-radius: 25px;\n    height: 320px;\n}\n\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

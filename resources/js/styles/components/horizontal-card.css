@@ -1,6 +1,17 @@
 .card-img {
+
     border-radius: 25px;
     height: 260px;
+}
+
+
+
+.card {
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    margin: -5px;
 }
 
 .card-title {
@@ -20,14 +31,21 @@
 }
 
 .read-more {
+    transition: all 0.5s ease;
     padding: 1px 18px;
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: white;
 }
 
+.read-more:hover {
+    padding: 2px 24px;
+}
+
+
 .read-more-text {
-    color: #3b6e78;
+    color: #6867AC;
     font-family: Helvetica, serif;
     font-size: 10px;
+    font-weight: bold;
 }
 

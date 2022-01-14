@@ -1,7 +1,7 @@
 <template>
     <div style="border-radius: 10px;" class="card border-0 shadow">
         <img
-            style="border-radius: 10px;"
+            style="border-radius: 10px; transition: all 0.5s ease;"
             src="https://images.pexels.com/photos/6956121/pexels-photo-6956121.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
             class="card-img"
             alt="image">
@@ -9,8 +9,8 @@
             <span class="card-title">KATEGORİ</span>
             <h5 class="card-text mt-1">Kısa Açıklama dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</h5>
 
-            <div class="read-container">
-                <router-link class="router-link" to="#"><div class="read-more shadow"><span class="read-more-text">DETAYLAR</span></div></router-link>
+            <div class="read-container ">
+                <router-link class="router-link" to="#"><div class="read-more shadow-lg"><span class="read-more-text">DEVAM</span></div></router-link>
             </div>
         </div>
     </div>

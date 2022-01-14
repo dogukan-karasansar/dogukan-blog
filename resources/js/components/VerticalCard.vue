@@ -10,7 +10,7 @@
             <h5 class="card-text mt-1">Kısa Açıklama dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.</h5>
 
             <div class="read-container">
-                <router-link class="router-link" to="#"><div class="read-more shadow"><span class="read-more-text">DETAYLAR</span></div></router-link>
+                <router-link class="router-link" to="#"><div class="read-more shadow-lg"><span class="read-more-text">DEVAM</span></div></router-link>
             </div>
         </div>
     </div>

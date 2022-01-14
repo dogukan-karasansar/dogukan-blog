@@ -1,16 +1,16 @@
 <template>
 
-    <div class="container-fluid align-items-start shadow-sm navbar-fluid">
+    <div class="container-fluid align-items-start shadow-sm navbar-fluid p-1">
         <div class="row">
             <div class="col-md-4  d-flex align-items-start flex-column ">
-                <div class="">
+                <div class="mt-0">
                     <a href="/">
-                        <img style="margin-left: 100px" :src="'/images/logo2.png'" width="75" height="60"/>
+                        <img style="margin-left: 100px" :src="'/images/logo.png'" width="40" height="40"/>
                     </a>
                 </div>
             </div>
             <div class="col-md-4  d-flex align-items-center flex-column ">
-                <div class="mt-3">
+                <div class="mt-2">
 
                     <!--   ABOUT   -->
                     <router-link class="router-link-active" v-if="$route.name === 'About'" to="/about">Hakkımda
@@ -39,7 +39,7 @@
                 </div>
             </div>
             <div class="col-md-4  d-flex align-items-end flex-column ">
-                <div class="mt-3">
+                <div class="mt-2">
 
 
                     <a href="https://www.linkedin.com/in/do%C4%9Fukan-karasansar-627770194/" target="_blank">

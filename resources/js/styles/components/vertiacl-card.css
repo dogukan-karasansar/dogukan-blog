@@ -3,30 +3,4 @@
     height: 320px;
 }
 
-.card-title {
-    font-size: 13px;
-    color: lightgray;
-    font-family: Helvetica, serif;
-}
 
-.card-text {
-    color: white;
-    font-family: Helvetica, serif;
-}
-
-.read-container {
-    position: absolute;
-    bottom: 0;
-}
-
-.read-more {
-    padding: 1px 18px;
-    border-radius: 2px;
-    background-color: white;
-}
-
-.read-more-text {
-    color: #3b6e78;
-    font-family: Helvetica, serif;
-    font-size: 10px;
-}
