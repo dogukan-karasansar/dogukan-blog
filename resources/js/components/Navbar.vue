@@ -63,10 +63,14 @@
                     >
 
                     <!-- YETENEK AĞACI -->
-                    <a class="router-link" href="#">Yetenek Ağacı</a>
+                    <a
+                        class="router-link"
+                        href="https://karasansar-cv-tree.vercel.app/"
+                        >Yetenek Ağacı</a
+                    >
 
                     <!--  NFT -->
-                    <router-link
+                    <!--<router-link
                         class="router-link-active"
                         v-if="$route.name === 'NFT'"
                         to="/NFT"
@@ -74,7 +78,7 @@
                     >
                     <router-link class="router-link" v-else to="/NFT"
                         >NFT</router-link
-                    >
+                    >-->
                 </div>
             </div>
             <div class="col-md-3 d-flex align-items-end flex-column">
