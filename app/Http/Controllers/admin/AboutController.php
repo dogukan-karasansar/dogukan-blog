@@ -68,7 +68,32 @@ class AboutController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $validate = $request->validate([
+            'image' => 'image|mimes:png,jpg,jpeg',
+            'title' => 'required',
+        ]);
+
+        if(isset($validate['image'])) {
+            $url = Config::get('app.url');
+            $path = $url.$request->image->store('images', 'public');
+            $request->image = $path;
+        }
+
+
+
+        $about = About::findOrFail($id);
+        /* $about->title = $request->title;
+        $about->description = $request->description;
+        $about->image = $request->image;
+        $about->tag = $request->tag;*/
+        $about->update([
+            'title' => $request->title,
+            'description' => $request->description,
+            'image' => $request->image,
+            'tag' => $request->tag
+         ]);
+
+        return response()->json(['data' => $about], 200);
     }
 
     /**
