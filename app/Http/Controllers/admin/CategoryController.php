@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Category;
 use Illuminate\Http\Request;
 
 class CategoryController extends Controller
@@ -14,7 +15,9 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        //
+        $categories = Category::all();
+
+        return response()->json(['category' => $categories], 200);
     }
 
     /**
@@ -25,7 +28,16 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'category_name' => "required"
+        ]);
+
+        $category = new Category();
+        $category->category_name = $request->category_name;
+        $category->save();
+
+        return response()->json(['message' => 'Kayıt Başarılı'], 201);
+
     }
 
     /**
@@ -48,7 +60,22 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $request->validate([
+            'category_name' => "required"
+        ]);
+
+        $category = Category::findOrFail($id);
+
+        if($category) {
+            $category->update([
+                'category_name' => $request->category_name,
+            ]);
+
+            return response()->json(['Güncelleme Başarılı'], 200);
+        }
+
+        return response()->json(['Hatalı İşlem'], 400);
+
     }
 
     /**
